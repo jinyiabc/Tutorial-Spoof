@@ -14,6 +14,7 @@
 		B06F9B48252E3E3A004FB61F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B06F9B46252E3E3A004FB61F /* LaunchScreen.storyboard */; };
 		B06F9B53252E3E3A004FB61F /* Tutorial_SpoofTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06F9B52252E3E3A004FB61F /* Tutorial_SpoofTests.swift */; };
 		B06F9B5E252E3E3A004FB61F /* Tutorial_SpoofUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06F9B5D252E3E3A004FB61F /* Tutorial_SpoofUITests.swift */; };
+		B0816022252EC865007653C9 /* hokkaido.gpx in Resources */ = {isa = PBXBuildFile; fileRef = B0816021252EC864007653C9 /* hokkaido.gpx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		B06F9B59252E3E3A004FB61F /* Tutorial SpoofUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tutorial SpoofUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B06F9B5D252E3E3A004FB61F /* Tutorial_SpoofUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tutorial_SpoofUITests.swift; sourceTree = "<group>"; };
 		B06F9B5F252E3E3A004FB61F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0816021252EC864007653C9 /* hokkaido.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = hokkaido.gpx; path = ../hokkaido.gpx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		B06F9B31252E3E37004FB61F = {
 			isa = PBXGroup;
 			children = (
+				B0816021252EC864007653C9 /* hokkaido.gpx */,
 				B06F9B3C252E3E37004FB61F /* Tutorial Spoof */,
 				B06F9B51252E3E3A004FB61F /* Tutorial SpoofTests */,
 				B06F9B5C252E3E3A004FB61F /* Tutorial SpoofUITests */,
@@ -188,7 +191,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1030;
-				LastUpgradeCheck = 1030;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = jinyi;
 				TargetAttributes = {
 					B06F9B39252E3E37004FB61F = {
@@ -230,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B06F9B48252E3E3A004FB61F /* LaunchScreen.storyboard in Resources */,
+				B0816022252EC865007653C9 /* hokkaido.gpx in Resources */,
 				B06F9B45252E3E3A004FB61F /* Assets.xcassets in Resources */,
 				B06F9B43252E3E38004FB61F /* Main.storyboard in Resources */,
 			);
@@ -338,6 +342,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -363,7 +368,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -399,6 +404,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -418,7 +424,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -433,6 +439,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T6M96A65VN;
 				INFOPLIST_FILE = "Tutorial Spoof/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,6 +457,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T6M96A65VN;
 				INFOPLIST_FILE = "Tutorial Spoof/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
